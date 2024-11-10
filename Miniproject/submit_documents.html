@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Documents</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Upload Documents</h1>
+    <form action="upload_documents.php" method="post" enctype="multipart/form-data">
+        <label for="documents">Select documents to upload:</label>
+        <input type="file" id="documents" name="documents[]" multiple required>
+
+        <button type="submit">Upload Documents</button>
+    </form>
+    <p><a href="index.html">Back to Home</a></p> <!-- Link to go back to home -->
+</body>
+</html>
